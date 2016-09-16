@@ -14,21 +14,21 @@ langevin_dynamics
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/dgiambra/langevin_dynamics/shield.svg
-     :target: https://pyup.io/repos/github/dgiambra/langevin_dynamics/
-     :alt: Updates
+        :target: https://pyup.io/repos/github/dgiambra/langevin_dynamics/
+        :alt: Updates
 
 
 Langevin Dynamics Simulator
 
 
 * Free software: MIT license
-* Documentation: https://langevin-dynamics.readthedocs.io.
+* Documentation: https://langevin-dynamics.readthedocs.io. (Not up to date yet)
 
 
 Features
 --------
 
-* TODO
+* At the moment, none. Currently an empty repository that will soon be home to a Langevin Dynamics Simulator.
 
 Credits
 ---------
@@ -37,4 +37,3 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
-
