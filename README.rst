@@ -1,10 +1,6 @@
 ===============================
-langevin_dynamics
+Langevin Dynamics Simulator
 ===============================
-
-
-.. image:: https://img.shields.io/pypi/v/langevin_dynamics.svg
-        :target: https://pypi.python.org/pypi/langevin_dynamics
 
 .. image:: https://img.shields.io/travis/dgiambra/langevin_dynamics.svg
         :target: https://travis-ci.org/dgiambra/langevin_dynamics
@@ -22,7 +18,7 @@ Langevin Dynamics Simulator
 
 
 * Free software: MIT license
-* Documentation: https://langevin-dynamics.readthedocs.io. (Not up to date yet)
+* Created for CHE 477 at University of Rochester
 
 
 Features
@@ -32,8 +28,8 @@ Features
 
 Credits
 ---------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+* **Dominic Giambra**
+* This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
