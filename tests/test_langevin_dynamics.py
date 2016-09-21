@@ -39,6 +39,10 @@ class TestLangevin_dynamics(unittest.TestCase):
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
 
+    def test_func(self):
+        pos,vel,time = langevin_dynamics(1,1,.01,1,"example.txt",1,100)
+        self.assertIsInstance(pos,list)
+
 
 if __name__ == '__main__':
     sys.exit(unittest.main())
