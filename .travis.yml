@@ -19,6 +19,6 @@ env:
 - TOXENV=pypy
 install: pip install -U tox; pip install numpy
 language: python
-python: "3.5_with_system_site_packages"
+python: "3.5"
 before_install: sudo apt-get install python-numpy
 script: tox -e ${TOXENV}
