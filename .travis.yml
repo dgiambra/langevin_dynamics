@@ -16,9 +16,7 @@ env:
 - TOXENV=py27
 - TOXENV=py26
 - TOXENV=pypy
-install:
-  -"pip install -U tox"
-  -"pip install numpy"
+install: pip install -U tox; pip install numpy
 language: python
 python: 3.5
 script: tox -e ${TOXENV}
