@@ -2,7 +2,10 @@
 History
 =======
 
-0.1.0 (2016-09-16)
-------------------
-
-* First release on PyPI.
+Versions
+--------
+* v1.0 - unstable
+* v2.0 - stable
+* v2.1 - unstable
+* v2.2 - stable
+* v2.3 - stable
