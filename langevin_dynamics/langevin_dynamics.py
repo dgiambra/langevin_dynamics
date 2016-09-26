@@ -24,6 +24,7 @@ def langevin_dynamics(x0,v0,t,m,filename,lam,T):
         lists indicating position, velocity, and time for each step
     also writes to a file named "output.txt" in the directory
     '''
+    import random
     x = x0
     v = v0
     crs = open(filename, "r")
