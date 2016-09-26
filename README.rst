@@ -24,7 +24,10 @@ Langevin Dynamics Simulator
 Features
 --------
 
-* At the moment, none. Currently an empty repository that will soon be home to a Langevin Dynamics Simulator.
+* Contains code for a one dimensional Langevin Dynamics Simulator
+* Functions are all documented on necessary inputs
+* Potential energy must be input as a text file, with the first column being an index, the second the time, third column if the Potential Energy, and the forth column is the Force
+* Results are written to a text file, function also returns three lists of pertinent information
 
 Credits
 ---------
