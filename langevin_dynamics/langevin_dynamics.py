@@ -12,7 +12,7 @@ def langevin_dynamics(x0,v0,t,m,filename,lam,T):
         m : float
             mass
         filename : string
-            name of file containing potential information
+            name of file containing potential information, must have 4 columns, index, position, potential energy at that positoin, and force at that position, position must have a stepsize of .001
         lam : float
             the lambda for brownian motion
         T : float
