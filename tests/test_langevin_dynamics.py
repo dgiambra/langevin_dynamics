@@ -41,7 +41,9 @@ class TestLangevin_dynamics(unittest.TestCase):
 
     def test_func(self):
         self.assertFalse(langevin_dynamics.langevin_dynamics(1 , 1 , .01 , 1 , "example.txt" , 1 , 100)==10)
-
+    def test_iterations(self):
+        pos,vel,time = langevin_dynamics.langevin_dynamics(1,2,.01,1,"example.txt",1,100)
+        self.assertTrue(len(pos)==100/.01)
     def test_type(self):
         pos,vel,time = langevin_dynamics.langevin_dynamics(1,2,.01,1,"example.txt",1,100)
         self.assertIsInstance(pos,list)
