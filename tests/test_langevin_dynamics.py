@@ -15,7 +15,7 @@ import unittest
 #from click.testing import CliRunner
 
 from langevin_dynamics import langevin_dynamics
-from langevin_dynamics import cli
+#from langevin_dynamics import cli
 
 
 
