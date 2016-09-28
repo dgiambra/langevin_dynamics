@@ -13,6 +13,8 @@ Langevin Dynamics Simulator
         :target: https://pyup.io/repos/github/dgiambra/langevin_dynamics/
         :alt: Updates
 
+.. image:: https://coveralls.io/repos/github/dgiambra/langevin_dynamics/badge.svg?branch=master
+        :target: https://coveralls.io/github/dgiambra/langevin_dynamics?branch=master
 
 Langevin Dynamics Simulator
 
