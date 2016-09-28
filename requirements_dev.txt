@@ -5,7 +5,12 @@ watchdog==0.8.3
 flake8==3.0.4
 tox==2.3.1
 coverage==4.2
+<<<<<<< HEAD
 Sphinx==1.4.5
 cryptography==1.5
+=======
+Sphinx==1.4.6
+cryptography==1.5.2
+>>>>>>> cc07c02f70e241580ba69a6d75b4c2e25bc46da2
 PyYAML==3.12
 numpy == 1.11.1
