@@ -28,6 +28,7 @@ Features
 * Functions are all documented on necessary inputs
 * Potential energy must be input as a text file, with the first column being an index, the second the time, third column if the Potential Energy, and the forth column is the Force
 * Results are written to a text file, function also returns three lists of pertinent information
+* Tests include setup, teardown, function runs, number of iterations and type of output
 
 Credits
 ---------
