@@ -22,6 +22,7 @@ language: python
 python: 3.5
 script:
   - tox -e ${TOXENV}
+  - pip install langevin_dynamics
   - coverage run tests/test_langevin_dynamics.py
 after_success:
   - bash <(curl -s https://codecov.io/bash)
