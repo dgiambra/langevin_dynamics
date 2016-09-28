@@ -17,11 +17,13 @@ env:
 - TOXENV=pypy
 install:
   - pip install -U tox
-  - pip install codecov
+  - pip install coveralls
+  - pip install .
 language: python
 python: 3.5
 script:
   - tox -e ${TOXENV}
+  - coverage run --source=langevin_dynamics setup.py test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - codecov
+  - coveralls
