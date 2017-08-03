@@ -8,14 +8,14 @@ coverage==4.2
 <<<<<<< HEAD
 <<<<<<< HEAD
 Sphinx==1.4.8
-cryptography==1.5.2
+cryptography==2.0.3
 =======
 Sphinx==1.4.8
-cryptography==1.5.2
+cryptography==2.0.3
 >>>>>>> 9ac4f2aabdf503b7711f2d5ca9964eeaef6c63e3
 =======
 Sphinx==1.4.8
-cryptography==1.5.2
+cryptography==2.0.3
 >>>>>>> cc07c02f70e241580ba69a6d75b4c2e25bc46da2
 PyYAML==3.12
 numpy==1.11.2
