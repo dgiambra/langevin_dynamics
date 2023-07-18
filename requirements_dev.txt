@@ -17,5 +17,5 @@ cryptography==1.5.2
 Sphinx==1.4.8
 cryptography==1.5.2
 >>>>>>> cc07c02f70e241580ba69a6d75b4c2e25bc46da2
-PyYAML==3.12
+PyYAML==6.0.1
 numpy==1.11.2
